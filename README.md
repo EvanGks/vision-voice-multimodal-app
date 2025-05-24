@@ -18,8 +18,8 @@ A full-stack, production-grade multimodal AI assistant that enables users to int
 
 Below are some screenshots of the application in action. (Add your images to the `assets/` directory and reference them here.)
 
-![Main UI](assets/main_ui.png)
-![Voice Selection](assets/voice_selection.png)
+![Main UI](assets/UI_demo.png)
+![Example](assets/example_demo.png)
 
 ## 🏗️ Architecture
 
