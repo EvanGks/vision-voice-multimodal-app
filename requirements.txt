@@ -1,0 +1,30 @@
+# =============================
+# Core Web & App Dependencies
+# =============================
+gradio==5.30.0         # Web UI framework
+flask==2.3.3           # Backend web server
+flask-cors==4.0.0      # CORS support for Flask
+python-dotenv==1.0.0   # Environment variable management
+
+# =============================
+# Machine Learning & AI
+# =============================
+transformers==4.38.2   # Hugging Face Transformers (Whisper, etc.)
+torch==2.2.1           # PyTorch (required for models)
+google-generativeai==0.3.2 # Google Gemini API client
+kokoro>=0.9.2          # Kokoro TTS/STT model (custom)
+sentencepiece==0.1.99  # Tokenizer for Whisper/Transformers
+scipy==1.11.1          # Scientific computing (resampling, etc.)
+numpy==1.26.4          # Numerical operations
+
+# =============================
+# Audio & Image Processing
+# =============================
+pillow==10.0.0         # Image processing
+soundfile==0.12.1      # Audio file I/O
+
+# =============================
+# Testing
+# =============================
+pytest==7.4.0          # Testing framework
+pytest-mock==3.11.1    # Mocking for pytest

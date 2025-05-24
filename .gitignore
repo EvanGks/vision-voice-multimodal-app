@@ -1,0 +1,54 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.cursorignore
+
+# Local development
+.DS_Store
+Thumbs.db
+
+# Project specific
+app/uploads/*
+!app/uploads/.gitkeep
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log 
+
+# Ignore test artifacts created during test runs
+/test/
+
+# Ignore all model/data files and cache folders in kokoro_assets
+app/backend/kokoro_assets/*.pth
+app/backend/kokoro_assets/voices/voices/*.pt
+app/backend/kokoro_assets/.cache/
+app/backend/kokoro_assets/voices/.cache/
+app/backend/kokoro_assets/
+
+# Ignore test data if used for generated or temporary test files
+tests/test_data/*
+!tests/test_data/.gitkeep
+
